@@ -1,0 +1,61 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: solid 1px hsl(217, 19%, 24%);
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 50px;
+    text-align: center;
+}
+
+.container .box .header {
+    color: hsl(150, 100%, 66%);
+    font-weight: lighter;
+}
+
+.container .box .content {
+    padding: 40px 0;
+    font-size: 170%;
+}
+
+.container .circle-wrapper {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+}
+
+.container .dice {
+    margin: 15px;
+}
+
+.circle-wrapper:hover {
+    background-color: #fff;
+    box-shadow:
+        0 0 10px 5px hsl(193, 38%, 86%);
+}
